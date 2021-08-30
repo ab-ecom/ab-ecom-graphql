@@ -18,3 +18,8 @@ spring:
           batch_versioned_data: true
     hibernate:
       ddl-auto: none
+
+# Graphql
+graphql:
+  servlet:
+    mapping: /apis/graphql

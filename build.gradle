@@ -1,5 +1,5 @@
 plugins {
-	id 'org.springframework.boot' version '2.5.4'
+	id 'org.springframework.boot' version '2.3.3.RELEASE'
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 	id 'java'
 }
@@ -15,6 +15,13 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'com.graphql-java:graphql-spring-boot-starter'
+	implementation 'com.graphql-java:graphql-java-tools:5.2.3'
+
+	implementation 'org.projectlombok:lombok:1.18.16'
+
+	compileOnly 'org.project.lombok:lombok'
+
 	runtimeOnly 'mysql:mysql-connector-java'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }

@@ -25,6 +25,7 @@ hs_err_pid*
 .gradle
 .classpath
 .project
+.idea
 org.eclipse.buildship.core.prefs
 gradle-wrapper.properties
 bin/*
